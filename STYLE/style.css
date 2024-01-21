@@ -1,0 +1,177 @@
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+
+/*Estilo Global*/
+
+body { 
+	font: georgia, sans-serif;
+	color: #555753; 
+	background-color: azure;
+	}
+
+
+
+
+
+/*Estilo de Menu*/
+.LinkMenu {
+    a:link { 
+    font-weight: bold; 
+    }
+    a:visited { 
+    text-decoration: none; 
+    color: #053e80;
+    }
+    a:hover { 
+    text-decoration: underline; 
+    color: #053e80;
+    font-style: italic;
+    font-weight: bold; 
+    font-size: 1.1em;
+    }
+}
+
+
+/*Estilo parrafo general*/
+h1 { 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;    
+}
+
+h2 { 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: #14130e;
+    font-weight: bold;    
+}
+
+h3 { 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #14130e;
+    font-weight: bold;    
+}
+
+p { 
+    font: georgia, sans-serif;
+	color: #202020; 
+	margin-top: 0; 
+	text-align: justify;
+	}
+
+
+
+
+
+
+ 
+
+
+
+/*redondea bordes de las imagenes*/
+img  { 
+    border-radius: 20px;
+    
+}
+
+
+/** Para poner las imagenes 1izquierda 2 derecha **/
+#Dividida {
+display: flex;
+margin: 20px;
+}
+
+.Izquierda{
+width: 50%;
+padding-left: 20px;
+}
+
+.Derecha {
+width: 50%;
+padding-left: 20px;
+}
+
+#DivididaPrincipal {
+    display: flex;
+    margin: 20px;
+    }
+    
+    .IzquierdaPrincipal {
+    width: 60%;
+    padding-left: 20px;
+    }
+    
+    .DerechaPrincipal {
+    width: 30%;
+    padding-left: 20px;
+    }
+
+
+/** estilos extras**/
+.TextoOrdenado{
+    display: flex; 
+    margin: 20px;
+}
+
+.ImagenDerecha {
+    margin-right: 15px;   
+    width: 350px;
+}
+
+.Texto{
+    margin: 20px;
+}
+
+main div img {
+    width: 100%;
+}
+
+
+section  img {
+    width: 100%;
+  
+}
+
+
+
+/* Estilo del Footer, achicamos imagen y centramos todo*/
+footer { 
+	text-align: center; 
+	}
+
+footer img { 
+    width: 50px;	 
+}
+
+.center {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;   
+}
+
+.Resaltar {
+    font-size: small;
+    font-family: Georgia;
+    font-style: italic;
+	border: 2px solid  #053e80;
+	}
+.ResaltarEspecial {
+    font-size: small;
+    font-family: Georgia;
+    border: 4px solid  #ffffff;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold; 
+    }
