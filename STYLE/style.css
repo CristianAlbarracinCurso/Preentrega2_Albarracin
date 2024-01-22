@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-
 }
 
 
@@ -16,27 +15,6 @@ body {
 	background-color: azure;
 	}
 
-
-
-
-
-/*Estilo de Menu*/
-.LinkMenu {
-    a:link { 
-    font-weight: bold; 
-    }
-    a:visited { 
-    text-decoration: none; 
-    color: #053e80;
-    }
-    a:hover { 
-    text-decoration: underline; 
-    color: #053e80;
-    font-style: italic;
-    font-weight: bold; 
-    font-size: 1.1em;
-    }
-}
 
 
 /*Estilo parrafo general*/
@@ -65,57 +43,71 @@ h3 {
 p { 
     font: georgia, sans-serif;
 	color: #202020; 
-	margin-top: 0; 
+	margin-top: 10; 
 	text-align: justify;
 	}
-
-
-
-
-
-
- 
 
 
 
 /*redondea bordes de las imagenes*/
 img  { 
     border-radius: 20px;
+    padding-bottom: 10px;
     
 }
 
 
-/** Para poner las imagenes 1izquierda 2 derecha **/
+
+/** Para poner las imagenes 1 izquierda 2 derecha **/
 #Dividida {
 display: flex;
 margin: 20px;
 }
-
 .Izquierda{
-width: 50%;
-padding-left: 20px;
+width: 60%;
+padding-left: 25px;
+padding-right: 25px;
 }
-
 .Derecha {
-width: 50%;
-padding-left: 20px;
+width: 40%;
+padding-left: 25px;
+padding-right: 25px;
 }
 
-#DivididaPrincipal {
-    display: flex;
-    margin: 20px;
-    }
-    
-    .IzquierdaPrincipal {
-    width: 60%;
-    padding-left: 20px;
-    }
-    
-    .DerechaPrincipal {
-    width: 30%;
-    padding-left: 20px;
-    }
 
+#DivididaServicios {
+display: flex;
+margin: 20px;
+}
+.IzquierdaServicios {
+width: 50%;
+padding-left: 10px;
+padding-right: 10px;
+}
+.DerechaServicios {
+width: 50%;
+padding-left: 10px;
+padding-right: 10px;
+}
+.AjusteVideo {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.AjusteVideo iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    width: 90%;
+    height: 90%;
+    
+
+    }
 
 /** estilos extras**/
 .TextoOrdenado{
@@ -135,6 +127,7 @@ padding-left: 20px;
 main div img {
     width: 100%;
 }
+
 
 
 section  img {
