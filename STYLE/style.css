@@ -168,3 +168,62 @@ footer img {
     text-align: center;
     font-weight: bold; 
     }
+
+section  {
+display: grid;
+margin: 30px 20px;
+}
+
+
+
+
+/*Estilos de Movil*/
+
+@media only screen and (max-width:960px) {
+ 
+   .ContenedorGrid{
+        grid-template-columns: 1;
+        gap: 30px;
+              
+    }
+    
+    .ContenedorGrid .NoticiaCuatro{
+        display: none;
+        
+        }
+
+
+
+}
+
+/*Estilos de PC*/
+
+@media screen and (min-width:961px) {
+
+    .ContenedorGrid {
+        grid-template-columns: repeat(3,1fr) ;
+        grid-template-rows: repeat(3,1fr);
+        gap: 30px;
+    }
+
+    .ContenedorGrid .NoticiaUno {
+        grid-column: span 3;
+        }
+
+
+        .ContenedorGrid .NoticiaDos
+    {
+        grid-row: span 1;
+        
+    }
+    .ContenedorGrid .NoticiaTres {
+        grid-row: span 2;
+        
+    }
+
+    .ContenedorGrid .NoticiaCuatro {
+        grid-column: span 1;
+        
+    }
+
+   }
