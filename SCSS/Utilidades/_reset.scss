@@ -1,0 +1,13 @@
+/*Reset*/
+* {
+    margin: 0 ;
+	padding: 0 ;
+	box-sizing: 0 ;
+}
+// Global
+/*Estilo General*/
+body {
+	font-family: $Fuente ;
+	color: $ColorFuentoNormal ;
+	background-color: $ColorFondo ;
+	}	

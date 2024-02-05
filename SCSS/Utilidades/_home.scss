@@ -1,0 +1,57 @@
+main {
+    div {
+        img {
+            width: 100% ;}
+        section {
+        display: grid ;
+        margin: 30px 20px ;}
+        img {
+        width: 100% ;}
+        footer {
+        text-align: center ;}
+        img {
+        width: 50px ;
+        .center {
+        align-self: center ;
+        align-items: center ;
+        align-content: center; 
+        text-align: center ;}
+       
+        }
+    }
+}
+
+
+
+
+//Estilos de Titulos Usando Varibles
+/* Estilos de Titulos */
+h1 {
+    font-family: $Fuente;
+    font-size: 2em;
+    color: #14130e;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-family: $Fuente;
+    font-size: 1.5em;
+    color: #14130e;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-family: $Fuente;
+    font-size: 1em;
+    color: #14130e;
+    font-weight: bold;
+  }
+  
+  p {
+    font-family: $Fuente;
+    color: #14130e;
+    margin-top: 10;
+    text-align: justify;
+  }
+  
