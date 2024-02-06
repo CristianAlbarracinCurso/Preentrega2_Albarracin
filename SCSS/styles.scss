@@ -9,6 +9,7 @@
   font-family: Georgia ;
   font-style: italic ;
   border: 2px solid  #053e80 ;}
+  
 .ResaltarEspecial {
   font-size: small ;
   font-family: Georgia ;
@@ -18,45 +19,8 @@
   text-align: center ;
   font-weight: bold ;}
 
-img {
-border-radius: 20px ;
-padding-bottom: 10px ;
-#Dividida {
-display: flex ;
-margin: 20px ;}
-.Izquierda {
-width: 60% ;
-padding-left: 25px ;
-padding-right: 25px ;}
-.Derecha {
-width: 40% ;
-padding-left: 25px ;
-padding-right: 25px ;}
-#DivididaServicios {
-display: flex ;
-margin: 20px ;}
-.IzquierdaServicios {
-width: 50% ;
-padding-left: 10px ;
-padding-right: 10px ;}
-.DerechaServicios {
-width: 50% ;
-padding-left: 10px ;
-padding-right: 10px ;}
-.AjusteVideo {
-position: relative ;
-padding-bottom: 56.25% ;
-height: 0 ;
-overflow: hidden ;}
-}
-iframe {
-  position: absolute ;
-  top: 50% ;
-  left: 50% ;
-  margin-right: -50% ;
-  transform: translate(-50%, -50%) ;
-  width: 90% ;
-  height: 90% ;}
+
+
 
 .TextoOrdenado {
 display: flex ;
